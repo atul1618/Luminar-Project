@@ -1,0 +1,79 @@
+#para{
+width:570px;
+margin-top:20px;
+}
+
+h2{
+color: #5e068a;
+}
+
+#intro{
+margin-top:96px;
+
+}
+#image1{
+margin-top:-65px;
+}
+
+.default{
+    padding: 16px 27px;
+    font-weight: 600;
+    border-radius: 50px;
+    border:2px solid #5e068a;
+    background:#5e068a;
+    color:white;
+
+    }
+
+ #details{
+ margin-top:-195px;
+ }
+ #courseheading{
+ margin-top:245px;
+ }
+ h3{
+ color:#5e068a;
+ }
+ #bigdataheading{
+ margin-top:50px;
+ }
+ #bigdata{
+ width:536px;
+ height:339px;
+ }
+ .coursedetails{
+ margin-top:25px;
+ }
+
+ .nextlink{
+ color:#5e068a;
+ }
+
+ #cardstyle{
+ margin-top:50px;
+ }
+
+ h5{
+ color:#5e068a;
+ }
+
+ h6{
+ color:#5e068a;
+ }
+
+ #navigation{
+ padding:15px;
+ text-align:center;
+ }
+
+ #luminarnav{
+margin-left:600px;
+font-family: 'PT Serif', serif;
+}
+
+a{
+color:black;
+}
+.nav-item{
+margin-left:25px;
+}
