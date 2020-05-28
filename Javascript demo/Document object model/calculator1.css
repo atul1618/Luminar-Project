@@ -1,0 +1,66 @@
+.jumbotron
+{
+margin-top:150px;
+background-color:blue;
+}
+
+.one
+{
+margin-left:50px;
+margin-top:10px;
+}
+
+#point
+{
+width:35px;
+}
+.operators
+{
+  margin-left:-15px;
+}
+
+.btn-danger
+{
+    margin-left:60px;
+    background-color:#50e809;
+}
+
+#sub
+{
+    width:37px;
+}
+
+#mul
+{
+    width:38px;
+}
+
+#divi
+{
+    width:41px;
+
+}
+
+#assign
+{
+    width:100px;
+    margin-left:117px;
+    margin-top:4px;
+    background-color:#ff6905;
+}
+
+.btn-warning
+{
+    margin-left:12px;
+}
+
+.btn-danger
+{
+    margin-left:21px;
+}
+
+#topic
+{
+    margin-left:76px;
+    font-family: 'Times New Roman', cursive;
+}

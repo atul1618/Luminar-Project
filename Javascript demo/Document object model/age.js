@@ -4,7 +4,7 @@ function display()
     var today=new Date();
     var year=today.getFullYear();
     var dob=year-age;
-    alert("DOB: "+dob);
+    alert("Birth Year: "+dob);
 }
 
 title=document.querySelectorAll("#title");
