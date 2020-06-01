@@ -8,3 +8,57 @@
     margin-left:100px;
 }
 
+#usertitle
+{
+    background-color:#05cbf7;
+    width:350px;
+    height:72px;
+    margin-left:-32px;
+    margin-top:-64px;
+    text-align:center;
+    line-height:54px;
+    color:#faffff;
+    font-family: 'Merriweather', serif;
+}
+
+.jumbotron
+{
+background-color:white;
+}
+
+body
+{
+    background-color:#e9ecef;
+}
+
+.navbar-nav
+{
+margin-left:1300px;
+}
+
+a
+{
+   color:white;
+}
+
+
+#one
+{
+    margin-left:25px;
+}
+
+#two
+{
+    margin-left:25px;
+}
+
+#sign
+{
+    color:black;
+    margin-left:50px;
+}
+
+#reg
+{
+color:blue;
+}

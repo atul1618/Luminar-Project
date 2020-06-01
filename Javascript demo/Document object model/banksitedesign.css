@@ -1,0 +1,50 @@
+a
+{
+    color:white;
+    margin-left:25px;
+}
+
+.navbar-nav
+{
+    margin-left:1200px;
+}
+
+.jumbotron
+{
+margin-top:150px;
+background-color:white;
+border-radius: 7px;
+border:2px solid black;
+}
+
+#statement
+{
+    margin-left:-32px;
+    margin-top:-64px;
+    border-radius:2px;
+    width:346px;
+    height:102px;
+    text-align:center;
+    line-height:73px;
+    font-family: 'Merriweather', serif;
+    font-size:33px;
+    color:white;
+    background-color:#c20404;
+}
+
+.form-group
+{
+    margin-top:16px;
+}
+
+.btn-danger
+{
+    width:103px;
+    margin-left:87px;
+    background-color:#c20404;
+    border-radius:29px;
+    height:53px;
+    font-family: 'Source Serif Pro', serif;
+    font-size:21px;
+
+}

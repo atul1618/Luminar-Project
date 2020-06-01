@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="userstyle.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar fixed-top" style="background-color:#0c0d0d;">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#"><b>HOME</b> <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" id="one" href="http://localhost:63342/Javascript%20demo/login.html?_ijt=vcinnckuts5sd6dok2jr7ocg2t"><b>LOGIN</b></a>
+      <a class="nav-item nav-link" id="two" href="http://localhost:63342/Javascript%20demo/registrationevent.html?_ijt=10l7tdhdc4o5l94gvteih8df9o"><b>REGISTRATION</b></a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col" id="loginstyle">
+            <div class="jumbotron">
+                <h2 id="usertitle">User Registration</h2>
+                 <form>
+                      <div class="form-group">
+                        <label for="Firstname">First Name</label>
+                        <input type="text" class="form-control" id="Firstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="Lastname">Last Name</label>
+                        <input type="text" class="form-control" id="Lastname">
+                    </div>
+                    <div class="form-group">
+                         <label for="Gender">Gender</label>
+                        <input type="radio" name="gender" id="Gender">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="Username">Username</label>
+                        <input type="text"class="form-control" id="Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword">
+                    </div>
+                    <div id="log">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+            </form>
+        </div>
+            </div>
+
+        <div class="col"></div>
+    </div>
+</div>
+
+</body>
+</html>

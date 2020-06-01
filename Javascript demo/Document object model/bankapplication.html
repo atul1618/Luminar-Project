@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>BankApplication</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="userstyle.css">
-    <script src="name.js"></script>
-
+    <link rel="stylesheet" href="banksitedesign.css">
+    <script src="value.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar fixed-top" style="background-color:#0c0d0d;">
+<nav class="navbar navbar-expand-lg navbar fixed-top" style="background-color:#c20404;">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -17,8 +16,8 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#"><b>HOME</b> <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" id="one" href="http://localhost:63342/Javascript%20demo/login.html?_ijt=vcinnckuts5sd6dok2jr7ocg2t"><b>LOGIN</b></a>
-      <a class="nav-item nav-link" id="two" href="http://localhost:63342/Javascript%20demo/registrationevent.html?_ijt=10l7tdhdc4o5l94gvteih8df9o"><b>REGISTRATION</b></a>
+      <a class="nav-item nav-link" id="one" href="http://localhost:63342/Javascript%20demo/Document%20object%20model/bankapplication.html?_ijt=uc6de8j41t49vrbij8uoejum3d"><b>BALANCE ENQUIRY</b></a>
+      <a class="nav-item nav-link" id="two" href="#"><b>REGISTRATION</b></a>
     </div>
   </div>
 </nav>
@@ -26,31 +25,28 @@
 <div class="container">
     <div class="row">
         <div class="col"></div>
-        <div class="col" id="loginstyle">
+        <div class="col">
             <div class="jumbotron">
-                <h2 id="usertitle">User login</h2>
+                <h2 id="statement"><b>Account statement</b></h2>
                  <form>
                 <div class="form-group">
-                    <label for="Username">Username</label>
-                    <input type="text"class="form-control" id="Username">
+                    <label for="AccountNo">Account No:</label>
+                    <input type="text"class="form-control" id="AccountNo">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword">
+                    <label for="Pinno">Pin:</label>
+                    <input type="password" class="form-control" id="Pinno">
                 </div>
                 <div >
                     <div class="form-group">
-                        <input type="button" class="btn btn-primary" onclick="Person.authenticateUser()">Sign In</input>
+                        <button type="button" class="btn btn-danger" onclick="Customer.accountverification()"><b>Submit</b></button>
                     </div>
                 </div>
             </form>
-                <a href="http://localhost:63342/Javascript%20demo/registrationevent.html?_ijt=10l7tdhdc4o5l94gvteih8df9o" id="sign"><b>Not a member? <u id="reg">Sign Up</u></b></a>
-        </div>
             </div>
-
+        </div>
         <div class="col"></div>
     </div>
 </div>
 </body>
-
 </html>
